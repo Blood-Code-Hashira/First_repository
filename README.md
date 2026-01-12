@@ -1,2 +1,2 @@
-# First_repository
-Just Practicing !!
+# My First_repository 🫶🏼
+Just Practicing ✨👩🏼‍💻 !!
