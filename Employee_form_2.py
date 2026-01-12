@@ -70,7 +70,7 @@ class employee:
         return self.__salary + other.salary
     
     def change_company(self, new_company):
-        if new_company != str:
+        if not isinstance(new_company, str):
             raise ValueError("Name of the company must be a string.")
             return
         self.company = new_company
@@ -100,3 +100,4 @@ class employee:
 e = employee("Max Doe", 900000, 6, 10)
 print(e)
 print(e.reputation())
+
